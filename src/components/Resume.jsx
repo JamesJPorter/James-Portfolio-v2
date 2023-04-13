@@ -1,46 +1,52 @@
 import React from "react";
-import resumeFile from "../documents/resume.pdf";
+import resumeFile from "../documents/James-Porter-resume.pdf";
 
 const Resume = () => {
   const educationDetails = [
     {
-      yearRange: "2015 - 2017",
-      title: "Master in Computer Engineering",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2022 - 2023",
+      title: "UCLA Online Coding Boot Camp - FullStack Web Development",
+      place: "UCLA Extension",
+      desc: "Completed a 6 month program learning fullstack Web Development utilizng RESTful API's and MERN Stack architecture.",
     },
     {
-      yearRange: "2014 - 2015",
-      title: "Bachelor in Computer Engineering",
-      place: "University of California",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2014 - 2016",
+      title: "Bachelor of Arts Political Science",
+      place: "University of California, Los Angeles",
+      desc: "",
     },
     {
-      yearRange: "2013 - 2014",
-      title: "International Science",
-      place: "Harvard University",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the dummy text.",
+      yearRange: "2012 - 2014",
+      title: "Associates Degree",
+      place: "Antelope Valley College",
+      desc:"",
     },
   ];
 
   const experienceDetails = [
     {
       yearRange: "2020 - current",
-      title: "Sr. Font End Developer",
-      place: "Apple Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      title: "Freelance Web Developer",
+      place: "",
+      desc: "Offering up my technical and client relations skills to provide value to small businesses, private individuals and large corporations alike via the building of effective and efficient web apps. REACT, MongoDB and MYSQL are my specialties.",
     },
     {
-      yearRange: "2018 - 2020",
-      title: "Jr. Font End Developer",
-      place: "Dribbble Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2018 - Current",
+      title: "Patron Services Manager",
+      place: "Royce Hall Theater Management Services",
+      desc: "Coordinator of all things audience facing at UCLA's most historic theater. Ensures high security standards for audiencnes, VIP's, celebrities and presidential level foreign and domestic government officials. Coordinates client onboarding, ",
     },
     {
-      yearRange: "2017 - 2018",
-      title: "HTML Developer",
-      place: "Adobe Inc",
-      desc: "Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
+      yearRange: "2014-2018",
+      title: "House Manager",
+      place: "Geffen Playhouse",
+      desc: "Managed a team of Ushers to prep the venue, receive guests, manage the theater during events, create detailed house reports, resolve conflicts with displeased guests and generally solve all guest related problems during live events.",
+    },
+    {
+      yearRange: "2016-2017",
+      title: "Fellow - Researcher / Coordinator",
+      place: "Propper Daley",
+      desc: "Composed client press releases for Paramount Pictures and Universal. Created social media copy for clients including the Call of Duty Endowment. Created back-end inventory management and digital assets for 2017 Call of Duty Race to Prestige fundraising event",
     },
   ];
 
@@ -119,7 +125,7 @@ const Resume = () => {
           </div>
         </div>
         {/* My Skills */}
-        <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
+        {/* <h2 className="text-7 fw-600 mb-4 pb-2 mt-5 wow fadeInUp">My Skills</h2>
         <div className="row gx-5">
           {skills.length > 0 &&
             skills.map((skill, index) => (
@@ -140,7 +146,7 @@ const Resume = () => {
                 </div>
               </div>
             ))}
-        </div>
+        </div> */}
         <p className="text-center mt-5 wow fadeInUp">
           <a
             className="btn btn-outline-dark shadow-none rounded-0"

@@ -3,14 +3,14 @@ import React from "react";
 const Services = () => {
   // services details
   const services = [
-    {
-      name: "Graphic Design",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-palette",
-    },
+    // {
+    //   name: "Graphic Design",
+    //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+    //   icon: "fas fa-palette",
+    // },
     {
       name: "Web Design",
-      desc: "Proficient in building modern React based applications utilizing express based server and MongoDB databases.",
+      desc: "Proficient in building modern, full-stack, React based applications.",
       icon: "fas fa-desktop",
     },
     {
@@ -20,19 +20,19 @@ const Services = () => {
     },
     {
       name: "App Design & Develop",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+      desc: "Able to build database architecture with MYSQL, noSQL and MongoDB.",
       icon: "fas fa-paint-brush",
     },
-    {
-      name: "Business Analysis",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-chart-area",
-    },
-    {
-      name: "SEO Marketing",
-      desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
-      icon: "fas fa-bullhorn",
-    },
+    // {
+    //   name: "Business Analysis",
+    //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+    //   icon: "fas fa-chart-area",
+    // },
+    // {
+    //   name: "SEO Marketing",
+    //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text.",
+    //   icon: "fas fa-bullhorn",
+    // },
   ];
 
   return (
