@@ -34,7 +34,7 @@ const AboutUs = () => {
                 </span>
               </div>
               <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
-                Years of <span className="fw-700">Experiance</span>
+                Years of <span className="fw-700">Experience</span>
               </h3>
             </div>
           </div>
