@@ -162,11 +162,11 @@ const Portfolio = () => {
             <span className="bg-primary text-dark px-2">Portfolio</span>
           </p>
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-            Some of my most recent projects
+            Some of my projects
           </h2>
           {/* Heading end*/}
           {/* Filter Menu */}
-          <ul
+          {/* <ul
             className={
               "portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-5 wow fadeInUp"
             }
@@ -191,7 +191,7 @@ const Portfolio = () => {
                 </button>
               </li>
             ))}
-          </ul>
+          </ul> */}
           {/* Filter Menu end */}
           <div className="portfolio wow fadeInUp">
             <div className="row portfolio-filter filter-container g-4">
