@@ -28,87 +28,73 @@ const Portfolio = () => {
 
   const projectsData = [
     {
-      title: "Detailed Project 1",
+      title: "Sojourner",
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+          "An app desgined to help you organized trips of all kinds with friends by coordinating accommodation, travel and activity information between all attending. Sporting a social media like view of all of your fellow travelers' shared information, Sojourner intends to make group trips of all kinds a breeze.",
+        technologies: "REACT, Javascript, JSX, Express, MONGODB",
         url: {
           name: "www.example.com",
           link: "https://www.example.com",
         },
 
         sliderImages: [
-          "images/projects/project-2.jpg",
-          "images/projects/project-5.jpg",
+          "images/projects/sojourner/sojourner-home.png",
+          "images/projects/sojourner/sojourner-tahoe-posts.png",
         ],
       },
 
-      thumbImage: "images/projects/project-1.jpg",
-
-      categories: [filters.DETAILED],
-    },
-    {
-      title: "Mockups Design 1",
-      type: types.IMAGE,
-
-      thumbImage: "images/projects/project-2.jpg",
+      thumbImage: "images/projects/sojourner/sojourner-login.png",
 
       categories: [filters.MOCKUPS],
     },
     {
-      title: "YouTube Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: false,
-        id: "PMNnEEEacCg",
-      },
-      thumbImage: "images/projects/project-3.jpg",
+      title: "Sojourner Login",
+      type: types.IMAGE,
 
-      categories: [filters.YOUTUBE],
+      thumbImage: "images/projects/sojourner/sojourner-home.png",
+
+      categories: [filters.MOCKUPS],
     },
     {
-      title: "Vimeo Video",
-      type: types.VIDEO,
-      video: {
-        vimeo: true,
-        id: "259411563",
-      },
+      title: "Sojourner Trip Content",
+      type: types.IMAGE,
+      thumbImage: "images/projects/sojourner/sojourner-tahoe-posts.png",
 
-      thumbImage: "images/projects/project-4.jpg",
-      categories: [filters.VIMEO],
+      categories: [filters.MOCKUPS],
     },
     {
-      title: "Detailed Project 2",
+      title: "BirdsEye - Dashboard",
+      type: types.IMAGE,
+
+      thumbImage: "images/projects/BirdsEye/BirdsEye-dashboard.png",
+      categories: [filters.MOCKUPS],
+    },
+    {
+      title: "BirdsEye",
       type: types.DOCUMENT,
       document: {
         projectInfo:
-          "Quidam lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure.",
-        client: "Ruby Clinton",
-        technologies: "iOS, HTML5, CSS3, PHP, Java",
-        industry: "Art & Design",
-        date: "July 16, 2019",
+        "A business development and project management application which enables users to map out their organization from the executive down through divisions, departments, projects and individual staff along with their associated goals.",
+        technologies: "JavaScript, HTML5, CSS3, Express, SQL",
         url: {
           name: "www.example.com",
           link: "https://www.example.com",
         },
         sliderImages: [
-          "images/projects/project-1.jpg",
-          "images/projects/project-2.jpg",
+          "images/projects/BirdsEye/BirdsEye-dashboard.png",
+          "images/projects/BirdsEye/BirdsEye-myteam.png",
         ],
       },
-      thumbImage: "images/projects/project-5.jpg",
-      categories: [filters.DETAILED],
+      thumbImage: "images/projects/BirdsEye/BirdsEye-login.png",
+      categories: [filters.MOCKUPS],
     },
     {
-      title: "Mockups Design 2",
+      title: "BirdsEye - Teams",
       type: types.IMAGE,
 
-      thumbImage: "images/projects/project-6.jpg",
+      thumbImage: "images/projects/BirdsEye/BirdsEye-myteam.png",
 
       categories: [filters.MOCKUPS],
     },
@@ -162,8 +148,9 @@ const Portfolio = () => {
             <span className="bg-primary text-dark px-2">Portfolio</span>
           </p>
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
-            Some of my projects
+            Some of My Projects
           </h2>
+          <span className="bg-primary text-dark px-2">Sojourner</span>
           {/* Heading end*/}
           {/* Filter Menu */}
           {/* <ul

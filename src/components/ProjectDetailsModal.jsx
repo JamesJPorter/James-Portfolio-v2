@@ -127,30 +127,30 @@ const ProjectDetailsModal = ({ projectDetails, setIsOpen }) => {
                           Project Details:
                         </h4>
                         <ul className={"list-style-2 "}>
-                          <li>
+                          {/* <li>
                             <span className={"text-dark fw-600 me-2"}>
                               Client:
                             </span>
                             {projectDetails?.document?.client}
-                          </li>
+                          </li> */}
                           <li>
                             <span className={"text-dark fw-600 me-2"}>
                               Technologies:
                             </span>
                             {projectDetails?.document?.technologies}
                           </li>
-                          <li>
+                          {/* <li>
                             <span className={"text-dark fw-600 me-2"}>
                               Industry:
                             </span>
                             {projectDetails?.document?.industry}
-                          </li>
-                          <li>
+                          </li> */}
+                          {/* <li>
                             <span className={"text-dark fw-600 me-2"}>
                               Date:
                             </span>
                             {projectDetails?.document?.date}
-                          </li>
+                          </li> */}
                           <li>
                             <span className={"text-dark fw-600 me-2"}>
                               URL:

@@ -59,9 +59,7 @@ const Contact = () => {
           <div className="col-lg-5 text-center text-lg-start wow fadeInUp">
             <h2 className="text-10 fw-600 mb-5">Let's get in touch</h2>
             <p className="text-5 mb-5">
-              I enjoy discussing new projects and design challenges. Please
-              share as much info, as possible so we can get the most out of our
-              first catch-up.
+             I would love to speak with you about one off projects, long term gigs or a good ole' professional development cup of coffee.
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
@@ -69,7 +67,7 @@ const Contact = () => {
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
             <p className="text-4">(+060) 444 434 444</p>
-            <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
+            {/* <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
                   <a
@@ -125,14 +123,14 @@ const Contact = () => {
                   </a>
                 </Tooltip>
               </li>
-            </ul>
+            </ul> */}
           </div>
           <div
             className="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp"
             data-wow-delay="0.3s"
           >
             <h2 className="text-10 fw-600 text-center text-lg-start mb-5">
-              Estimate your Project?
+              Reach Out!
             </h2>
             {/* Contact Form */}
             <form

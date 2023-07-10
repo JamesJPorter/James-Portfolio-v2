@@ -126,8 +126,8 @@ function App() {
             <Resume></Resume>
             <Portfolio></Portfolio>
             <CallToAction></CallToAction>
-            <FAQs></FAQs>
-            <Testimonials></Testimonials>
+            {/* <FAQs></FAQs> */}
+            {/* <Testimonials></Testimonials> */}
             <Contact></Contact>
           </div>
           <Footer handleNavClick={handleNavClick}></Footer>

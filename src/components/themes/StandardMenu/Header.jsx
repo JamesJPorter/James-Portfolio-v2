@@ -26,7 +26,7 @@ const StandardMenuHeader = () => {
                 setIsNavModalClose(true);
               }}
             >
-              <img src="images/James-logo-cropped.png" alt="Callum" />
+              <img src="images/James-logo-cropped.png" alt="James" />
             </Link>
             {/* Logo End */}
           </div>

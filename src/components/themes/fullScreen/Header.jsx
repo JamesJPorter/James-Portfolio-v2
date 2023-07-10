@@ -170,7 +170,7 @@ const FullScreenHeader = ({ textWhite }) => {
                     Portfolio
                   </Link>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <Link
                     className="nav-link "
                     smooth="easeInOutQuint"
@@ -203,7 +203,7 @@ const FullScreenHeader = ({ textWhite }) => {
                   >
                     Client Speak
                   </Link>
-                </li>
+                </li> */}
                 <li className="nav-item">
                   <Link
                     className="nav-link "
@@ -222,7 +222,7 @@ const FullScreenHeader = ({ textWhite }) => {
                   </Link>
                 </li>
               </ul>
-              <ul className="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
+              {/* <ul className="social-icons social-icons-light social-icons-lg social-icons-light d-inline-flex mt-4">
                 <li className="social-icons-twitter">
                   <Tooltip text="Twitter" placement="top">
                     <a
@@ -278,7 +278,7 @@ const FullScreenHeader = ({ textWhite }) => {
                     </a>
                   </Tooltip>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>
