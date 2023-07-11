@@ -14,10 +14,10 @@ const Contact = () => {
     setSendingMail(true);
     emailjs
       .sendForm(
-        "service_i8Fk3ms",
-        "template_siFcin9",
+        "service_yzwhepq",
+        "template_a6xh4ic",
         form.current,
-        "c9HsFgGF0tFWyVnAL"
+        "jH0vcvHmi7vVbR9D6"
       )
       .then(
         (result) => {
@@ -63,10 +63,10 @@ const Contact = () => {
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
-              30 Shacham street, Los Angeles, USA.
+              Los Angeles, USA.
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
+            <p className="text-4">+1 661-810-5155</p>
             {/* <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
               <li className="social-icons-twitter">
                 <Tooltip text="Twitter" placement="top">
