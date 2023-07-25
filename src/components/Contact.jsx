@@ -63,67 +63,10 @@ const Contact = () => {
             </p>
             <h3 className="text-5 fw-600">Living In:</h3>
             <address className="text-4">
-              30 Shacham street, Los Angeles, USA.
+              Los Angeles, USA
             </address>
             <h3 className="text-5 fw-600">Call:</h3>
-            <p className="text-4">(+060) 444 434 444</p>
-            {/* <ul className="social-icons social-icons-lg justify-content-center justify-content-lg-start mt-5">
-              <li className="social-icons-twitter">
-                <Tooltip text="Twitter" placement="top">
-                  <a
-                    href="https://twitter.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-facebook">
-                <Tooltip text="Facebook" placement="top">
-                  <a
-                    href="http://www.facebook.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-facebook" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-instagram">
-                <Tooltip text="Instagram" placement="top">
-                  <a
-                    href="http://www.instagram.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-github">
-                <Tooltip text="Github" placement="top">
-                  <a
-                    href="http://www.github.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-github" />
-                  </a>
-                </Tooltip>
-              </li>
-              <li className="social-icons-dribbble">
-                <Tooltip text="Dribbble" placement="top">
-                  <a
-                    href="http://www.dribbble.com/harnishdesign/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fab fa-dribbble" />
-                  </a>
-                </Tooltip>
-              </li>
-            </ul> */}
+            <p className="text-4">(+1) 661-810-5155</p>
           </div>
           <div
             className="col-lg-6 ms-auto mt-5 mt-lg-0 wow fadeInUp"
