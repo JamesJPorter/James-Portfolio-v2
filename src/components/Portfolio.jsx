@@ -35,8 +35,8 @@ const Portfolio = () => {
           "An app desgined to help you organized trips of all kinds with friends by coordinating accommodation, travel and activity information between all attending. Sporting a social media like view of all of your fellow travelers' shared information, Sojourner intends to make group trips of all kinds a breeze.",
         technologies: "REACT, Javascript, JSX, Express, MONGODB",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "Github Repo",
+          link: "https://github.com/gulogulo208/sojourner",
         },
 
         sliderImages: [
@@ -79,8 +79,8 @@ const Portfolio = () => {
         "A business development and project management application which enables users to map out their organization from the executive down through divisions, departments, projects and individual staff along with their associated goals.",
         technologies: "JavaScript, HTML5, CSS3, Express, SQL",
         url: {
-          name: "www.example.com",
-          link: "https://www.example.com",
+          name: "Github Repo",
+          link: "https://github.com/gulogulo208/universal-scheduler",
         },
         sliderImages: [
           "images/projects/BirdsEye/BirdsEye-dashboard.png",
@@ -150,7 +150,7 @@ const Portfolio = () => {
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
             Some of My Projects
           </h2>
-          <span className="bg-primary text-dark px-2">Sojourner</span>
+          {/* <span className="bg-primary text-dark px-2">Sojourner</span> */}
           {/* Heading end*/}
           {/* Filter Menu */}
           {/* <ul
