@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7c235c13.css",
-    "main.js": "/static/js/main.3a4060a9.js",
+    "main.js": "/static/js/main.691a0eaa.js",
     "static/js/787.aa378339.chunk.js": "/static/js/787.aa378339.chunk.js",
     "static/media/home.mp4": "/static/media/home.bb43f9730aa282f0f01d.mp4",
     "static/media/James-Porter-Full-Stack-Resume.pdf": "/static/media/James-Porter-Full-Stack-Resume.074edd6462d41a21fb9a.pdf",
@@ -11,11 +11,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.7c235c13.css.map": "/static/css/main.7c235c13.css.map",
-    "main.3a4060a9.js.map": "/static/js/main.3a4060a9.js.map",
+    "main.691a0eaa.js.map": "/static/js/main.691a0eaa.js.map",
     "787.aa378339.chunk.js.map": "/static/js/787.aa378339.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c235c13.css",
-    "static/js/main.3a4060a9.js"
+    "static/js/main.691a0eaa.js"
   ]
 }
