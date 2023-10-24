@@ -44,17 +44,17 @@ const AboutUs = () => {
                 </span>
               </div>
               <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
-                Year of <span className="fw-700">Full Stack Web Dev Experience</span>
+                Year of <span className="fw-700">Full Stack Experience</span>
               </h3>
             </div>
           </div>
         </div>
         <div className="row gy-3 mt-4">
-          <div className="col-6 col-lg-3 wow fadeInUp">
+          <div className="col-6 col-lg-4 wow fadeInUp">
             <p className="text-muted fw-500 mb-0">Name:</p>
             <p className="text-4 text-dark fw-600 mb-0">James Porter</p>
           </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+          <div className="col-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
             <p className="text-muted fw-500 mb-0">Email:</p>
             <p className="text-4 fw-600 mb-0">
               <a className="link-dark" href="mailto:porterjjames@gmail.com">
@@ -62,13 +62,13 @@ const AboutUs = () => {
               </a>
             </p>
           </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
+          {/* <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.3s">
             <p className="text-muted fw-500 mb-0">Date of birth:</p>
             <p className="text-4 text-dark fw-600 mb-0">11 December, 1993</p>
-          </div>
-          <div className="col-6 col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+          </div> */}
+          <div className="col-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
             <p className="text-muted fw-500 mb-0">From:</p>
-            <p className="text-4 text-dark fw-600 mb-0">Los Angeles, USA.</p>
+            <p className="text-4 text-dark fw-600 mb-0">Los Angeles</p>
           </div>
         </div>
       </div>

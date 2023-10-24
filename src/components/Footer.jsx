@@ -20,6 +20,10 @@ const Footer = () => {
               <a className="fw-600" href="https://www.harnishdesign.net/">
                 Harnish Design
               </a>
+              <span>{" "} & {" "}</span>
+              <a href="https://james-porter-fullstack.web.app/">
+               James Porter
+              </a>
             </p>
           </div>
         </div>

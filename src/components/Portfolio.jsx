@@ -150,36 +150,6 @@ const Portfolio = () => {
           <h2 className="text-10 fw-600 text-center mb-5 wow fadeInUp">
             Some of My Projects
           </h2>
-          {/* <span className="bg-primary text-dark px-2">Sojourner</span> */}
-          {/* Heading end*/}
-          {/* Filter Menu */}
-          {/* <ul
-            className={
-              "portfolio-menu nav nav-tabs fw-600 justify-content-start justify-content-md-center border-bottom-0 mb-5 wow fadeInUp"
-            }
-          >
-            <li className="nav-item">
-              <button
-                className={"nav-link " + (filterKey === "*" ? "active" : "")}
-                onClick={handleFilterKeyChange("*")}
-              >
-                All
-              </button>
-            </li>
-            {Object.keys(filters).map((oneKey, i) => (
-              <li className="nav-item" key={i}>
-                <button
-                  className={
-                    "nav-link " + (filterKey === oneKey ? "active" : "")
-                  }
-                  onClick={handleFilterKeyChange(oneKey)}
-                >
-                  {filters[oneKey]}
-                </button>
-              </li>
-            ))}
-          </ul> */}
-          {/* Filter Menu end */}
           <div className="portfolio wow fadeInUp">
             <div className="row portfolio-filter filter-container g-4">
               {projectsData.length > 0 &&
