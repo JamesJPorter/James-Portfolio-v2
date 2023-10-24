@@ -1,5 +1,5 @@
 import React from "react";
-import resumeFile from "../documents/James-Porter-resume.pdf";
+import resumeFile from "../documents/James-Porter-Full-Stack-Resume.pdf";
 
 const Resume = () => {
   const educationDetails = [
