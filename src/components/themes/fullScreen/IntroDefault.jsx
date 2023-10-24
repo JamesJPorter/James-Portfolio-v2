@@ -32,7 +32,7 @@ const FullScreenDefaultIntro = () => {
               style={{ cursor: "pointer" }}
               to="portfolio"
             >
-              View My Works
+              View My Work
             </Link>
             <Link
               className="btn btn-link text-dark smooth-scroll mt-3"
