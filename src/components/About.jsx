@@ -29,21 +29,21 @@ const AboutUs = () => {
           >
             <div className="featured-box style-4">
               <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
-                <span className="wow heartBeat" data-wow-delay="1.3s">
+                <span className="wow">
                   14
                 </span>
               </div>
-              <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
+              <h3 className="text-7">
                 Years of <span className="fw-700">Managerial Experience</span>
               </h3>
             </div>
             <div className="featured-box style-4">
               <div className="featured-box-icon text-25 fw-500 bg-primary rounded-circle">
-                <span className="wow heartBeat" data-wow-delay="1.3s">
+                <span>
                   1
                 </span>
               </div>
-              <h3 className="text-7 wow rubberBand" data-wow-delay="2s">
+              <h3 className="text-7">
                 Year of <span className="fw-700">Full Stack Experience</span>
               </h3>
             </div>
